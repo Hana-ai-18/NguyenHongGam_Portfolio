@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nguyen Hong Gam - AI Student</title>
+<meta name="description" content="Nguyen Hong Gam - AI undergraduate at UIT, VNU-HCM. RAG, machine learning, deep learning, reinforcement learning and data mining research. Finalist, AI Challenge Ho Chi Minh City 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="lang-en">
+
+<div class="progress" id="progress"></div>
+<div class="bg" aria-hidden="true"><i class="b1"></i><i class="b2"></i><i class="b3"></i></div>
+
+<header class="nav">
+  <a class="brand" href="#top"><span class="mono">&lt;</span>gam<span class="mono">/&gt;</span></a>
+  <nav>
+    <a href="#why"><span class="en">Why AI</span><span class="vi">Vì sao AI</span></a>
+    <a href="#projects"><span class="en">Projects</span><span class="vi">Dự án</span></a>
+    <a href="#research"><span class="en">Research</span><span class="vi">Nghiên cứu</span></a>
+    <a href="#skills"><span class="en">Skills</span><span class="vi">Kỹ năng</span></a>
+    <a href="#awards"><span class="en">Awards</span><span class="vi">Thành tích</span></a>
+    <a href="#life"><span class="en">Gallery</span><span class="vi">Hình ảnh</span></a>
+    <a href="#contact"><span class="en">Contact</span><span class="vi">Liên hệ</span></a>
+  </nav>
+  <button id="langBtn" class="lang" aria-label="Switch language">VI</button>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <p class="eyebrow mono"><span class="dot"></span><span class="en">AI undergraduate · UIT, VNU-HCM</span><span class="vi">Sinh viên AI · UIT, ĐHQG-HCM</span></p>
+    <h1>Nguyễn Hồng Gấm</h1>
+    <p class="typed-line mono">&gt; <span id="typed"></span><span class="caret">|</span></p>
+    <p class="lead">
+      <span class="en">I build AI systems that are <b>interpretable</b>, <b>deployable</b> and grounded in solid theory, from retrieval-augmented generation to reinforcement learning agents.</span>
+      <span class="vi">Mình xây dựng các hệ thống AI <b>dễ diễn giải</b>, <b>triển khai được</b> và có nền tảng lý thuyết vững, từ RAG đến tác tử học tăng cường.</span>
+    </p>
+    <div class="cta">
+      <a class="btn primary" href="#projects"><span class="en">View projects</span><span class="vi">Xem dự án</span></a>
+      <a class="btn" href="assets/NguyenHongGam_CV.pdf" target="_blank" rel="noopener"><span class="en">Download CV</span><span class="vi">Tải CV</span></a>
+      <a class="btn ghost" href="https://github.com/Hana-ai-18" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+    <ul class="stats">
+      <li><b data-count="8.51" data-dec="2">8.51</b><span class="en">GPA / 10</span><span class="vi">GPA / 10</span></li>
+      <li><b data-count="4">4</b><span class="en">AI projects shipped</span><span class="vi">dự án AI hoàn thiện</span></li>
+      <li><b data-count="2026" data-nocomma="1">2026</b><span class="en">AI Challenge HCMC Finalist</span><span class="vi">Chung kết AI Challenge TP.HCM</span></li>
+    </ul>
+  </div>
+  <div class="hero-photo">
+    <div class="ring"></div>
+    <div class="glow"></div>
+    <img class="portrait" src="assets/portrait.webp" alt="Nguyễn Hồng Gấm" width="448" height="762">
+    <div class="chip c1 mono">PyTorch</div>
+    <div class="chip c2 mono">RAG</div>
+    <div class="chip c3 mono">Data Mining</div>
+    <div class="chip c4 mono">Canva · CapCut</div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee" aria-hidden="true">
+  <div class="track mono">
+    <span>Python</span><span>PyTorch</span><span>TensorFlow</span><span>scikit-learn</span><span>RAG</span><span>ChromaDB</span><span>Docker</span><span>Flask</span><span>Data Mining</span><span>Reinforcement Learning</span><span>Adobe Illustrator</span><span>Canva</span><span>CapCut</span>
+    <span>Python</span><span>PyTorch</span><span>TensorFlow</span><span>scikit-learn</span><span>RAG</span><span>ChromaDB</span><span>Docker</span><span>Flask</span><span>Data Mining</span><span>Reinforcement Learning</span><span>Adobe Illustrator</span><span>Canva</span><span>CapCut</span>
+  </div>
+</div>
+
+<!-- WHY AI -->
+<section id="why" class="section">
+  <p class="kicker mono">01 / <span class="en">why ai</span><span class="vi">vì sao chọn ai</span></p>
+  <h2><span class="en">Why I chose Artificial Intelligence</span><span class="vi">Vì sao mình chọn Trí tuệ nhân tạo</span></h2>
+  <div class="why">
+    <blockquote>
+      <span class="en">AI is the field where an idea has to survive contact with reality.</span>
+      <span class="vi">AI là lĩnh vực mà mọi ý tưởng đều phải được thực tế kiểm chứng.</span>
+    </blockquote>
+    <div class="why-body">
+      <div class="en">
+        <p>I did not choose AI because it is the loudest topic in tech. I chose it because a model can look brilliant in a notebook and fail the moment the data changes. That gap between <i>“it works on my laptop”</i> and <i>“it works when it matters”</i> is what pulled me in, and what I want to spend my career closing.</p>
+        <p>Each project taught me a different side of that gap. In the VNPT RAG system, accuracy was never about a bigger model; it came from retrieval quality, prompt design and staying inside strict API quotas. In the AI Art Detector I deliberately avoided deep learning and engineered features by hand (fractal, wavelet, FFT, LBP) to understand <i>why</i> a classifier decides what it decides. The music CNN showed me how sound can become an image a network learns to see. And the Bomberman agent taught me that training an agent is mostly about designing what it is rewarded for.</p>
+        <p>Leading my class of AI students and helping organise events for more than a thousand people taught me the other half: technology only matters when it is built with and for people. That is the engineer I want to become, one who ships systems that are interpretable, deployable, and honest about their limits.</p>
+      </div>
+      <div class="vi">
+        <p>Mình không chọn AI vì đây là chủ đề “hot” nhất của ngành công nghệ. Mình chọn AI vì một mô hình có thể trông rất ấn tượng trong notebook nhưng thất bại ngay khi dữ liệu thay đổi. Khoảng cách giữa <i>“chạy được trên máy mình”</i> và <i>“chạy được khi thực sự cần”</i> chính là điều cuốn hút mình, và là điều mình muốn dành cả sự nghiệp để thu hẹp.</p>
+        <p>Mỗi dự án cho mình một góc nhìn khác về khoảng cách ấy. Ở hệ thống RAG của VNPT, độ chính xác không đến từ mô hình lớn hơn mà từ chất lượng truy xuất, thiết kế prompt và việc bám sát hạn mức API. Ở AI Art Detector, mình chủ động không dùng deep learning mà tự thiết kế đặc trưng (fractal, wavelet, FFT, LBP) để hiểu <i>vì sao</i> bộ phân loại đưa ra quyết định như vậy. CNN phân loại nhạc cho mình thấy âm thanh có thể trở thành hình ảnh để mạng học cách “nhìn”. Còn agent Bomberman dạy mình rằng huấn luyện một tác tử phần lớn là thiết kế điều mà nó được thưởng.</p>
+        <p>Làm lớp trưởng lớp AI và tham gia tổ chức các sự kiện cho hơn một nghìn người cho mình nửa còn lại: công nghệ chỉ có ý nghĩa khi được tạo ra cùng và vì con người. Đó là kiểu kỹ sư mình muốn trở thành, người đưa ra những hệ thống dễ diễn giải, triển khai được và trung thực về giới hạn của chính nó.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <p class="kicker mono">02 / <span class="en">projects</span><span class="vi">dự án</span></p>
+  <h2><span class="en">Selected projects</span><span class="vi">Dự án tiêu biểu</span></h2>
+  <div class="grid projects">
+
+    <article class="card tilt">
+      <div class="tag mono">RAG · ChromaDB · Docker</div>
+      <h3>Vietnamese Knowledge RAG</h3>
+      <p class="sub">VNPT AI Challenge - Track 2: The Builder</p>
+      <p>
+        <span class="en">End-to-end retrieval-augmented pipeline for Vietnamese multiple-choice QA: question classifier → embedding API → ChromaDB top-5 retrieval → prompt builder → dual-model LLM routing that respects daily quotas. Containerised with Docker, with embedding caching and batching.</span>
+        <span class="vi">Pipeline RAG hoàn chỉnh cho bài toán trắc nghiệm tiếng Việt: phân loại câu hỏi → embedding API → truy xuất top-5 bằng ChromaDB → dựng prompt → định tuyến hai mô hình LLM theo hạn mức mỗi ngày. Đóng gói Docker, có cache và gom batch embedding.</span>
+      </p>
+      <a class="more" href="https://github.com/Hana-ai-18" target="_blank" rel="noopener">GitHub ↗</a>
+    </article>
+
+    <article class="card tilt">
+      <div class="tag mono">scikit-learn · Flask</div>
+      <h3>AI Art Detector</h3>
+      <p class="sub"><span class="en">Real vs. AI-generated images · CS114</span><span class="vi">Ảnh thật vs. ảnh AI · CS114</span></p>
+      <p>
+        <span class="en">Pure classical ML, no deep learning. Three hand-engineered feature pipelines (fractal, wavelet, GLCM, FFT, LBP, HOG) benchmarked across 9 classifiers = 27 experiments. Best: SVM-RBF at about 88-93% accuracy, AUC &gt; 0.93. Deployed as a Flask app with live feature visualisations.</span>
+        <span class="vi">Thuần machine learning cổ điển, không dùng deep learning. Ba pipeline đặc trưng thiết kế thủ công (fractal, wavelet, GLCM, FFT, LBP, HOG) được thử trên 9 bộ phân loại = 27 thí nghiệm. Tốt nhất: SVM-RBF đạt khoảng 88-93%, AUC &gt; 0.93. Triển khai bằng Flask kèm trực quan hóa đặc trưng.</span>
+      </p>
+      <a class="more" href="https://github.com/Hana-ai-18" target="_blank" rel="noopener">GitHub ↗</a>
+    </article>
+
+    <article class="card tilt">
+      <div class="tag mono">TensorFlow · librosa</div>
+      <h3>Music Genre CNN</h3>
+      <p class="sub"><span class="en">GTZAN · 10 genres</span><span class="vi">GTZAN · 10 thể loại</span></p>
+      <p>
+        <span class="en">Turns 30-second clips into Mel-spectrogram and Chroma matrices and classifies them with a Conv2D → Pool → Dropout → Dense network trained with Adam; exported to .h5 for portable inference.</span>
+        <span class="vi">Chuyển các đoạn nhạc 30 giây thành ma trận Mel-spectrogram và Chroma, phân loại bằng mạng Conv2D → Pool → Dropout → Dense huấn luyện với Adam; xuất .h5 để suy luận linh hoạt.</span>
+      </p>
+      <a class="more" href="https://github.com/Hana-ai-18" target="_blank" rel="noopener">GitHub ↗</a>
+    </article>
+
+    <article class="card tilt">
+      <div class="tag mono">PyTorch · PPO · Self-Play</div>
+      <h3>BomIT RL Agent</h3>
+      <p class="sub">GDGoC-HCMUS AI Challenge 2026</p>
+      <p>
+        <span class="en">Bomberman-style agent using Hybrid PPO + safety rules. ResBlock CNN + Actor-Critic over a 5×13×13 spatial input, trained with a 3-phase curriculum (Explore → Survive → Fight), adaptive reward annealing and a 10-checkpoint self-play pool to prevent strategy collapse.</span>
+        <span class="vi">Tác tử kiểu Bomberman dùng PPO lai luật an toàn. ResBlock CNN + Actor-Critic trên đầu vào 5×13×13, huấn luyện theo curriculum 3 giai đoạn (Explore → Survive → Fight), giảm dần phần thưởng thích ứng và self-play pool 10 checkpoint để tránh sụp đổ chiến lược.</span>
+      </p>
+      <a class="more" href="https://github.com/Hana-ai-18" target="_blank" rel="noopener">GitHub ↗</a>
+    </article>
+
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research" class="section">
+  <p class="kicker mono">03 / <span class="en">research</span><span class="vi">nghiên cứu</span></p>
+  <h2><span class="en">Research</span><span class="vi">Nghiên cứu</span></h2>
+  <article class="card research tilt">
+    <div class="tag mono">Data Mining · DAIR Lab</div>
+    <h3>DAIR Lab, UIT</h3>
+    <p class="sub"><span class="en">Faculty of Computer Science · Advisor: Dr. Vo Nguyen Le Duy</span><span class="vi">Khoa Khoa học Máy tính · Giảng viên hướng dẫn: TS. Võ Nguyễn Lê Duy</span></p>
+    <p>
+      <span class="en">I am a member of the DAIR research lab, whose work focuses on statistical and mathematical methods for knowledge discovery from data. My research direction is <b>Data Mining</b>.</span>
+      <span class="vi">Mình đang tham gia nhóm nghiên cứu DAIR, tập trung vào các phương pháp thống kê và toán học cho bài toán khai phá tri thức từ dữ liệu. Hướng nghiên cứu của mình là <b>Data Mining</b>.</span>
+    </p>
+    <p class="status">
+      <span class="dot"></span>
+      <span class="en">A manuscript has been submitted to <b>Expert Systems with Applications</b> and is currently under review.</span>
+      <span class="vi">Một bản thảo đã được nộp cho tạp chí <b>Expert Systems with Applications</b> và đang trong quá trình phản biện.</span>
+    </p>
+  </article>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <p class="kicker mono">04 / <span class="en">skills</span><span class="vi">kỹ năng</span></p>
+  <h2><span class="en">Toolbox</span><span class="vi">Công cụ</span></h2>
+  <div class="grid skills">
+    <div class="skill tilt"><h4>Languages</h4><p class="mono">Python · C++ · SQL</p></div>
+    <div class="skill tilt"><h4>Machine Learning</h4><p class="mono">scikit-learn · SVM · Random Forest · Gradient Boosting · KNN</p></div>
+    <div class="skill tilt"><h4>Deep Learning</h4><p class="mono">PyTorch · TensorFlow/Keras · CNN · PPO · Self-Play</p></div>
+    <div class="skill tilt"><h4>Generative AI</h4><p class="mono">RAG · ChromaDB · LLM APIs · Prompt Engineering</p></div>
+    <div class="skill tilt"><h4>Signal &amp; Vision</h4><p class="mono">librosa · scikit-image · FFT · Wavelet</p></div>
+    <div class="skill tilt"><h4>Engineering</h4><p class="mono">Git · Docker · Flask · Linux · LaTeX</p></div>
+  </div>
+
+  <div class="media">
+    <div class="media-head">
+      <p class="kicker mono">05 / <span class="en">beyond code</span><span class="vi">ngoài code</span></p>
+      <h3><span class="en">I also work in media &amp; communication</span><span class="vi">Mình còn làm được truyền thông</span></h3>
+      <p>
+        <span class="en">Besides AI, I am comfortable creating visual and video content for student events and communities. As Head of Content of the Class President Club, I plan stories, write and design so that ideas are easy to understand and nice to look at.</span>
+        <span class="vi">Bên cạnh AI, mình làm tốt mảng truyền thông: thiết kế hình ảnh và dựng video cho các sự kiện, cộng đồng sinh viên. Với vai trò Trưởng ban Nội dung CLB Lớp trưởng, mình lên ý tưởng, viết bài và thiết kế để thông điệp dễ hiểu và đẹp mắt.</span>
+      </p>
+    </div>
+    <div class="tools">
+      <div class="tool tilt t1"><span class="logo">Ai</span><h4>Adobe Illustrator</h4><p><span class="en">Vector graphics, posters and layouts.</span><span class="vi">Đồ họa vector, poster và bố cục.</span></p></div>
+      <div class="tool tilt t2"><span class="logo">Cv</span><h4>Canva</h4><p><span class="en">Social posts, slides and event materials.</span><span class="vi">Bài đăng, slide và ấn phẩm sự kiện.</span></p></div>
+      <div class="tool tilt t3"><span class="logo">Cc</span><h4>CapCut</h4><p><span class="en">Short-form video editing and highlights.</span><span class="vi">Dựng video ngắn và video tổng kết.</span></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- AWARDS -->
+<section id="awards" class="section">
+  <p class="kicker mono">06 / <span class="en">awards</span><span class="vi">thành tích</span></p>
+  <h2><span class="en">Awards &amp; certificates</span><span class="vi">Giải thưởng &amp; giấy chứng nhận</span></h2>
+  <p class="note"><span class="en">Click a certificate to enlarge.</span><span class="vi">Bấm vào giấy chứng nhận để phóng to.</span></p>
+  <div class="grid certs">
+
+    <figure class="cert" data-img="assets/certs/ai-challenge-2026.jpg">
+      <div class="thumb"></div>
+      <figcaption>
+        <b><span class="en">Finalist - AI Challenge Ho Chi Minh City 2026</span><span class="vi">Chung kết - AI Challenge TP.HCM 2026</span></b>
+        <span class="meta mono">26 Sep 2026 · VNU-HCM, QNSC &amp; HCA</span>
+      </figcaption>
+    </figure>
+
+    <figure class="cert" data-img="assets/certs/sv5tot.jpg">
+      <div class="thumb"></div>
+      <figcaption>
+        <b><span class="en">“5 Good Student” - Faculty level</span><span class="vi">Sinh viên 5 Tốt cấp khoa KHMT</span></b>
+        <span class="meta mono">2024-2025</span>
+      </figcaption>
+    </figure>
+
+    <figure class="cert" data-img="assets/certs/lop-truong-uu-tu.jpg">
+      <div class="thumb"></div>
+      <figcaption>
+        <b><span class="en">Outstanding Class President 2025</span><span class="vi">Lớp trưởng ưu tú 2025</span></b>
+        <span class="meta mono">UIT Leader Club</span>
+      </figcaption>
+    </figure>
+
+    <figure class="cert" data-img="assets/certs/giay-khen-doan-truong.jpg">
+      <div class="thumb"></div>
+      <figcaption>
+        <b><span class="en">Certificate of Merit - Youth Union &amp; youth movement</span><span class="vi">Giấy khen - Công tác Đoàn và phong trào thanh niên</span></b>
+        <span class="meta mono">7 Nov 2025 · No. 52-QĐ/ĐTN</span>
+      </figcaption>
+    </figure>
+
+    <figure class="cert" data-img="assets/certs/thanh-nien-tien-tien.jpg">
+      <div class="thumb"></div>
+      <figcaption>
+        <b><span class="en">Advanced Youth Following Uncle Ho’s Teachings</span><span class="vi">Thanh niên tiên tiến làm theo lời Bác</span></b>
+        <span class="meta mono">8 Dec 2025 · No. 02-QĐ/ĐTN</span>
+      </figcaption>
+    </figure>
+
+    <figure class="cert" data-img="assets/certs/doan-hoi-khoa.jpg">
+      <div class="thumb"></div>
+      <figcaption>
+        <b><span class="en">Positive contribution - Faculty Youth Union &amp; Student Association</span><span class="vi">Đóng góp tích cực công tác Đoàn - Hội khoa KHMT</span></b>
+        <span class="meta mono">2024-2025</span>
+      </figcaption>
+    </figure>
+
+    <figure class="cert" data-img="assets/certs/wecode-2025.jpg">
+      <div class="thumb"></div>
+      <figcaption>
+        <b><span class="en">Wecode Challenge 2025 - “Good Academic Performance” criterion</span><span class="vi">Wecode Challenge 2025 - đạt tiêu chí “Học tập tốt”</span></b>
+        <span class="meta mono">6 Jun 2025 · No. 491/GCN-HSV</span>
+      </figcaption>
+    </figure>
+
+    <figure class="cert" data-img="assets/certs/nhi-dong-1.jpg">
+      <div class="thumb"></div>
+      <figcaption>
+        <b><span class="en">Letter of thanks - Children’s Hospital 1</span><span class="vi">Thư cảm ơn - Bệnh viện Nhi Đồng 1</span></b>
+        <span class="meta mono">20 Jan 2025 · “Zero-Cost Market”</span>
+      </figcaption>
+    </figure>
+
+  </div>
+</section>
+
+<!-- LEADERSHIP -->
+<section id="leadership" class="section">
+  <p class="kicker mono">07 / <span class="en">leadership</span><span class="vi">hoạt động</span></p>
+  <h2><span class="en">Leadership &amp; community</span><span class="vi">Lãnh đạo &amp; cộng đồng</span></h2>
+  <ol class="timeline">
+    <li><span class="when mono">2024 - now</span>
+      <div><h4><span class="en">Class President · AI Cohort TTNT2024</span><span class="vi">Lớp trưởng · Lớp TTNT2024</span></h4>
+      <p><span class="en">Primary student-faculty liaison: scheduling, welfare and extracurricular activities.</span><span class="vi">Cầu nối chính giữa sinh viên và khoa: lịch học, quyền lợi và hoạt động ngoại khóa.</span></p></div></li>
+    <li><span class="when mono">2024 - now</span>
+      <div><h4><span class="en">Executive Committee · Faculty of CS Youth Union</span><span class="vi">Ủy viên BCH · Đoàn khoa Khoa học Máy tính</span></h4>
+      <p><span class="en">Planning and running faculty-wide programs and community campaigns.</span><span class="vi">Lên kế hoạch và triển khai các chương trình, chiến dịch cộng đồng toàn khoa.</span></p></div></li>
+    <li><span class="when mono">2024 - now</span>
+      <div><h4><span class="en">Head of Content · Class President Club</span><span class="vi">Trưởng ban Nội dung · CLB Lớp trưởng</span></h4>
+      <p><span class="en">Content strategy and internal communications across multiple cohorts.</span><span class="vi">Chiến lược nội dung và truyền thông nội bộ cho nhiều khóa.</span></p></div></li>
+    <li><span class="when mono">Nov 2024 - May 2025</span>
+      <div><h4><span class="en">Organising Committee · UIT events</span><span class="vi">Ban tổ chức · Các sự kiện UIT</span></h4>
+      <p><span class="en">Star Awards 2024 (1,000+ attendees), Blood Donation Drive, Student Leader Competition, Wecode Challenge 2025, CS League.</span><span class="vi">Star Awards 2024 (1.000+ người tham dự), Hiến máu nhân đạo, Student Leader Competition, Wecode Challenge 2025, CS League.</span></p></div></li>
+    <li><span class="when mono">Jan 2025</span>
+      <div><h4><span class="en">Volunteer · Zero-Cost Charity Market, Children’s Hospital 1</span><span class="vi">Tình nguyện · Phiên chợ 0 đồng, Bệnh viện Nhi Đồng 1</span></h4>
+      <p><span class="en">Distributed free goods to patients and families during Tet.</span><span class="vi">Phát quà và nhu yếu phẩm miễn phí cho bệnh nhi và gia đình dịp Tết.</span></p></div></li>
+  </ol>
+</section>
+
+<!-- GALLERY -->
+<section id="life" class="section">
+  <p class="kicker mono">08 / <span class="en">gallery</span><span class="vi">hình ảnh</span></p>
+  <h2><span class="en">Life beyond the screen</span><span class="vi">Cuộc sống ngoài màn hình</span></h2>
+  <div class="gallery">
+    <figure class="shot s1"><i class="blob"></i><img src="assets/photos/basketball.webp" alt="Nguyễn Hồng Gấm on campus" loading="lazy"><figcaption><span class="en">On campus</span><span class="vi">Ở trường</span></figcaption></figure>
+    <figure class="shot s2"><i class="blob"></i><img src="assets/photos/hat.webp" alt="Nguyễn Hồng Gấm in áo dài with a conical hat" loading="lazy"><figcaption><span class="en">Proudly Vietnamese</span><span class="vi">Tự hào Việt Nam</span></figcaption></figure>
+    <figure class="shot s3"><i class="blob"></i><img src="assets/photos/blossom.webp" alt="Nguyễn Hồng Gấm with peach blossoms" loading="lazy"><figcaption><span class="en">Spring mood</span><span class="vi">Sắc xuân</span></figcaption></figure>
+    <figure class="shot s4"><i class="blob"></i><img src="assets/photos/metro1.webp" alt="Nguyễn Hồng Gấm holding a tulip" loading="lazy"><figcaption><span class="en">Exploring Saigon</span><span class="vi">Dạo Sài Gòn</span></figcaption></figure>
+    <figure class="shot s5"><i class="blob"></i><img src="assets/photos/metro2.webp" alt="Nguyễn Hồng Gấm in a white dress" loading="lazy"><figcaption><span class="en">Quiet moments</span><span class="vi">Khoảnh khắc nhẹ nhàng</span></figcaption></figure>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+  <p class="kicker mono">09 / <span class="en">contact</span><span class="vi">liên hệ</span></p>
+  <h2><span class="en">Let’s talk</span><span class="vi">Cùng trò chuyện</span></h2>
+  <p class="lead">
+    <span class="en">Open to scholarships, internships and AI collaborations.</span>
+    <span class="vi">Sẵn sàng với học bổng, thực tập và các dự án AI.</span>
+  </p>
+  <div class="cta">
+    <a class="btn primary" href="mailto:24520411@gm.uit.edu.vn">24520411@gm.uit.edu.vn</a>
+    <a class="btn" href="https://github.com/Hana-ai-18" target="_blank" rel="noopener">github.com/Hana-ai-18</a>
+    <a class="btn ghost" href="assets/NguyenHongGam_CV.pdf" target="_blank" rel="noopener"><span class="en">CV (PDF)</span><span class="vi">CV (PDF)</span></a>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot mono">© 2026 Nguyễn Hồng Gấm · UIT, VNU-HCM</footer>
+
+<div id="lightbox" class="lightbox" hidden><button aria-label="Close">×</button><img alt=""></div>
+<script src="script.js"></script>
+</body>
+</html>
