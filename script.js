@@ -56,6 +56,9 @@
       lb.hidden = false;
     });
   });
+  document.querySelectorAll('.ev').forEach(function (fig) {
+    fig.addEventListener('click', function () { lbImg.src = fig.dataset.img; lb.hidden = false; });
+  });
   lb.addEventListener('click', function () { lb.hidden = true; });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') lb.hidden = true; });
 
@@ -70,7 +73,7 @@
   onScroll();
 
   /* ---------- reveal on scroll (staggered) ---------- */
-  var els = document.querySelectorAll('.section > *, .card, .skill, .tool, .cert, .timeline li, .shot');
+  var els = document.querySelectorAll('.section > *, .card, .skill, .tool, .cert, .timeline li, .ev, .pose');
   els.forEach(function (el, i) {
     el.classList.add('reveal');
     el.style.setProperty('--d', ((i % 4) * 0.08) + 's');
